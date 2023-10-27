@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mky Makkey - Artista e Designer</title>
+
+    <!-- ----------------------------- STYLESHEET ------------------------------ -->
+    <link rel="stylesheet" 
+    href="css/projeto.css">
+
+    <!-- ----------------------------- GOOGLE FONT ----------------------------- -->
+    <link rel="preconnect" 
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+        href="https://fonts.gstatic.com" 
+        crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" 
+        rel="stylesheet">
+    
+    <!-- --------------------------- RESPONSIVE MENU --------------------------- -->
+    <script src="https://kit.fontawesome.com/3a591bff9c.js" crossorigin="anonymous"></script>
+
+    <!-- ---------------------- FUNCTION RESPONSIVE MENU ----------------------- -->
+    <script>
+    function myFunction() {document.getElementsByClassName("menu")[0].classList.toggle("responsive");}
+    </script>
+
+    <!-- -------------------------- JAVASCRIPT SLIDER -------------------------- -->
+    <script src="js/slider.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="etiqueta">
+                <div class="txtetiqueta">
+                    <a href="">
+                        <h1>MKY MAKKEY</h1>
+                        <h2>ARTISTA E DESIGNER</h2>
+                    </a>
+                </div>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ilustracoes.html">Ilustrações</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li class="active"><a href="projetos.html">Projetos</a></li>
+                <li><a href="sobremim.html">Sobre Mim</a></li>
+                <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="animacao" class="projtop">
+            <h2>APOLLO</h2>
+
+            <div class="video">
+                <iframe width="890" height="500" 
+                    src="https://www.youtube.com/embed/jDg1cevg04g?si=iV52gDpsmJtRoruK" 
+                    title="YouTube video player" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="descricao">
+                <p>Em uma intensa rotina de procurar comida, buscar abrigo e fugir de animais hostis, 
+                    um pequeno gato sobrevive em uma cidade grande na esperança de conseguir um lar e alguém que o ame.
+                </p>
+            </div>
+        </section>
+
+        <section id="conceptart">
+            <h2>Concept Art</h2>
+            <div class="gallery">
+                <div class="single-gallery w-2">
+                    <img src="images/galerias/apollo_modelsheet.webp" 
+                    alt="Na imagem de modelsheet de um dos personagens, um gato preto de olhos amarelos em vários ângulos e 
+                    três expressões faciais, felicidade, tristeza e raiva">
+                </div>
+                <div class="single-gallery w-2">
+                    <img src="images/galerias/apollo_blake_modelsheet.webp" 
+                    alt="Na imagem de modelsheet de um dos personagens, uma menina com uma capa e chapéu de bruxa pretos com detalhes em 
+                    vermelho e amarelo, em vários ângulos e três expressões faciais, felicidade, tristeza e indiferença">
+                </div>
+                <div class="single-gallery w-2">
+                    <img src="images/galerias/apollo_cenario_beco.webp" 
+                    alt="Na imagem de concept art de um dos cenários, árvores no primeiro plano, um longo beco com um portão e 
+                    grades de ferro no segundo e prédios no terceiro">
+                </div>
+                <div class="single-gallery w-2">
+                    <img src="images/galerias/apollo_cenario_floresta.webp" 
+                    alt="Na imagem de concept art de um dos cenários, há uma paisagem de floresta a noite. Onde no primeiro 
+                    plano há árvores, no segundo um pouco ao longe, montanhas, e no céu a lua minguante se escondendo atrás das montanhas">
+                </div>
+            </div>
+        </section>
+
+        <section id="storyboard">
+            <h2>Storyboard</h2>
+            <div class="container-slider">
+                <button id="prev-button"><img src="images/setaprev.svg" alt="prev-button"></button>
+                <div class="container-images">
+                    <img src="images/galerias/apollo_capa_storyboard.webp" class="slider on">
+                    <img src="images/galerias/apollo_storyboard_pg1.webp" class="slider">
+                    <img src="images/galerias/apollo_storyboard_pg2.webp" class="slider">
+                    <img src="images/galerias/apollo_storyboard_pg3.webp" class="slider">
+                    <img src="images/galerias/apollo_storyboard_pg4.webp" class="slider">
+                    <img src="images/galerias/apollo_storyboard_pg5.webp" class="slider">
+                    <img src="images/galerias/apollo_storyboard_pg6.webp" class="slider">
+                    <img src="images/galerias/apollo_storyboard_pg7.webp" class="slider">
+                </div>
+                <button id="next-button"><img src="images/setanext.svg" alt="next-button"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="animatic">
+            <h2>Animatic</h2>
+            <div class="video">
+                <video src="images/galerias/animatic.mp4"
+                    controls 
+                    muted>
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h4>Mky Makkey © 2023</h4>
+    </footer>
+    
+</body>
+</html>

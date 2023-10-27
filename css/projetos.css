@@ -1,0 +1,61 @@
+@import url("style.css");
+
+#projetos{margin: 50px 0 50px 0;
+    text-align: center;}
+
+#projetos h2{margin-bottom: 85px;}
+
+.projetos{display: flex;
+    justify-content: center;
+    gap: 50px;}
+
+.card{background: rgb(28, 28, 28, 0.8);
+    padding: 30px;
+    border-radius: 15px;}
+
+.card h3{margin-bottom: 10px;}
+
+.card a{text-decoration: none;}
+
+.cardimg{width: 500px;
+    margin-bottom: 20px;}
+
+.cardimg img{width: 100%;
+    border-radius: 15px;
+    object-fit: cover;}
+
+/* ---------------------------- RESPONSIVE TABLET --------------------------- */
+
+@media (max-width: 1169px){
+    
+    #projetos{margin: 30px 0 30px 0;}
+
+    #projetos h2{margin-bottom: 70px;}
+
+    .projetos{gap: 25px;}
+
+    .card{width: 300px;
+        border-radius: 10px;
+        padding: 20px;}
+
+    .cardimg{width: 300px;}
+
+    .cardimg img{border-radius: 10px;}
+}
+
+/* -------------------------- RESPONSIVE SMARTPHONE ------------------------- */
+
+@media (max-width: 767px){
+
+    #projetos{margin: 20px 0 20px 0;}
+
+    #projetos h2{margin-bottom: 40px;}
+
+    .projetos{display: block;}
+
+    .card{width: 250px;
+        margin-bottom: 50px;
+        padding: 25px;}
+
+    .cardimg{width: 250px;}
+}

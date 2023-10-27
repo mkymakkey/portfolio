@@ -1,0 +1,212 @@
+*{margin: 0;
+    padding: 0;}
+
+html{font-family: 'montserrat', sans-serif;
+    background: #24313C;
+    background-image: url("../images/background.svg");
+    background-size: 100%;
+    background-position-y: top;
+    background-repeat: repeat-y;}
+
+main{width: 1200px;
+    margin: auto;
+    padding: 90px 0 90px 0;}
+
+/* TEXT */
+
+h1{color: #FFF;
+    font-size: 23px;
+    font-weight: 900;}
+
+h2{color: #FFF;
+    font-size: 32px;
+    font-weight: 900;}
+
+h3{color: #D9D9D9;
+    font-size: 25px;
+    font-weight: 700;}
+
+h4{color: #FFF;
+    font-size: 12px;
+    font-weight: 400;}
+
+p{color: #D9D9D9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;}
+
+.menu{font-size: 16px;
+    font-weight: 500;}
+
+.etiqueta h2{color: #D9D9D9;
+    font-size: 16px;
+    font-weight: 500;}
+
+/* HEADER */
+
+header{background: #752E2E;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 5;}
+
+nav{display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;}
+
+.etiqueta{width: 300px;
+    height: 92px;
+    background-image: url("../images/etiqueta.svg");
+    background-size: 300px;
+    background-repeat: no-repeat;}
+
+.txtetiqueta{margin-top: 20px;
+    text-align: center;}
+
+.txtetiqueta a{text-decoration: none;}
+
+.icon{display: none;}
+
+.menu{width: 670px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;}
+
+.menu a{color: #D9D9D9;
+    text-decoration: none;}
+
+.menu a:hover{color: #FFF;
+    text-decoration: none;}
+
+.active a{color: #FFF;
+    text-decoration: underline;}
+
+/* FOOTER */
+
+footer{background: #752E2E;
+    width: 100%;
+    padding: 7px 0 7px 0;
+    text-align: center;}
+
+
+
+/* ---------------------------- RESPONSIVE TABLET --------------------------- */
+
+@media (max-width: 1169px){
+
+    main{width: 700px;}
+
+    /* TEXT */
+
+    h1{font-size: 20px;}
+
+    h2{font-size: 27px;}
+
+    h3{font-size: 20px;}
+
+    h4{font-size: 11px;}
+
+    p{font-size: 13px;
+        line-height: 20px;}
+
+    .etiqueta h2{font-size: 13px;}
+
+    .menu{font-size: 13px;}
+
+    /* HEADER */
+
+    header{height: 55px;}
+
+    nav{padding: 0 20px 0 20px;}
+
+    .etiqueta{width: 250px;
+        height: 77px;
+        background-size: 250px;}
+
+    .menu{width: 400px;}
+
+    /* FOOTER */
+
+    footer{padding: 6px 0 6px 0;}
+}
+
+/* -------------------------- RESPONSIVE SMARTPHONE ------------------------- */
+
+@media (max-width: 767px){
+
+    main{width: 300px;}
+
+    /* TEXT */
+
+    h1{font-size: 17px;}
+
+    h2{font-size: 23px;}
+
+    h3{font-size: 18px;}
+
+    h4{font-size: 10px;}
+
+    p{font-size: 12px;}
+
+    .etiqueta h2{font-size: 10px;}
+
+    /* HEADER */
+
+    header{height: 50px;}
+
+    .etiqueta{width: 220px;
+        height: 68px;
+        z-index: 1;
+        background-size: 220px;}
+
+    /* FOOTER */
+
+    footer{padding: 5px 0 5px 0;}
+}
+
+
+/* ----------------------------- RESPONSIVE MENU ---------------------------- */
+
+@media (max-width:767px) {
+
+    .menu{width: 10px;}
+
+    .menu li{display: none;}
+
+    .menu .icon {display: block;
+            width: 10px;}
+}
+
+@media (max-width:767px) {
+    ul.menu.responsive {position: absolute;
+            display: inline-block;
+            align-items: center;
+            width: 155px;
+            top: 30px;
+            right: 0;
+            background: linear-gradient(rgb(117, 46, 46,0.9), rgb(71, 28, 28,0.8));
+            height: 255px;
+            padding-top: 15px;
+            border-radius: 15px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0px;}
+    
+    ul.menu.responsive li.icon {position: absolute;
+            display: block;
+            align-items: center;
+            z-index: 5;
+            right: 18px;
+            bottom: 263px;}
+
+    ul.menu.responsive li {float: none;
+            padding-bottom: 5px;
+            display: block;
+            width: auto;}
+
+    ul.menu.responsive li a {color:#D9D9D9;
+            display: block;
+            line-height: 45px;
+            text-align: center;
+            width: auto;}
+}

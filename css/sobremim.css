@@ -1,0 +1,146 @@
+@import url("style.css");
+
+/* SECTION SOBRE MIM */
+
+#sobremim{margin: 50px 0 150px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+
+.imgsobremim, .imgsobremim img{width: 500px;}
+
+.biografia{width: 420px;
+    text-align: center;}
+
+/* SECTION EXPERIENCIAS */
+
+#experiencias{margin-bottom: 150px;}
+
+#experiencias h2, #experiencias h3{margin-bottom: 50px;
+    text-align: center;}
+
+#experiencias li{color: #D9D9D9;
+    font-size: 14px;
+    font-weight: 400px;}
+
+.experiencias{display: flex;}
+
+.experiencias img{width: 200px;}
+
+.hs, .hscontent ul{margin: auto;}
+
+.hscontent{width: 500px;
+    display: flex;}
+
+.hscontent li{margin-bottom: 30px;
+    list-style: none;}
+
+/* SECTION FORMACAO */
+
+#formacao{margin-bottom: 120px;
+    text-align: center;}
+
+#formacao h2{margin-bottom: 50px;}
+
+#formacao li{margin-bottom: 30px;
+    list-style: none;}
+
+/* SECTION CONTATO */
+
+#contato{margin-bottom: 100px;
+    text-align: center;}
+
+#contato h2{margin-bottom: 50px;}
+
+#contato p{margin-bottom: 40px;}
+
+.redessociais{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 15px;
+    gap: 20px;}
+
+.redessociais img{width: 50px;}
+
+.redessociais img:hover{opacity: 50%;}
+
+/* ---------------------------- RESPONSIVE TABLET --------------------------- */
+
+@media (max-width: 1169px){
+
+    /* SECTION SOBRE MIM */
+
+    #sobremim{margin: 70px 0 150px 0;}
+
+    .imgsobremim, .imgsobremim img{width: 350px;}
+
+    .biografia{width: 320px;}
+
+    /* SECTION EXPERIENCIAS */
+
+    #experiencias{margin-bottom: 120px;}
+
+    .experiencias img{width: 180px;}
+
+    .hscontent{width: 365px;}
+
+    /* SECTION FORMACAO */
+
+    #formacao{margin-bottom: 120px;}
+
+    /* SECTION CONTATO */
+    
+    #contato{margin-bottom: 100px;}
+
+    .redessociais img{width: 40px;}
+
+}
+
+/* -------------------------- RESPONSIVE SMARTPHONE ------------------------- */
+
+@media (max-width: 767px){
+
+    /* SECTION SOBRE MIM */
+
+    #sobremim{margin: 0 0 100px 0;
+        display: block;}
+
+    .imgsobremim, .imgsobremim img{width: 300px;
+        margin-bottom: 10px;}
+
+    .biografia{width: 300px;}
+
+    /* SECTION EXPERIENCIAS */
+    
+    #experiencias{margin-bottom: 100px;}
+
+    #experiencias h2, #experiencias h3{margin-bottom: 40px;}
+
+    #experiencias li{font-size: 12px;
+        line-height: 20px;}
+
+    .experiencias{display: block;}
+    
+    .experiencias img{width: 140px;}
+
+    .hscontent{width: 300px;
+        margin-bottom: 30px;}
+
+    /* SECTION FORMACAO */
+
+    #formacao{margin-bottom: 100px;}
+
+    #formacao h2{margin-bottom: 40px;}
+
+    #formacao li{margin-bottom: 20px;}
+
+    /* SECTION CONTATO */
+    
+    #contato{margin-bottom: 50px;}
+
+    #contato p{margin-bottom: 25px;}
+
+    #contato h2{margin-bottom: 30px;}
+
+    .redessociais img{width: 35px;}
+}
